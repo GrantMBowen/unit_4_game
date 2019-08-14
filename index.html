@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="text/css" href="assets/css/reset.css">
+    <title>Crystals!
+    </title>
+</head>
+<body>
+    <h1>Crystal Collector</h1>
+
+    <p>
+        You will be given a random number at the start of the game.
+    </p>
+    <br>
+    <p>
+        There are four Crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+    </p>
+    <br>
+    <p>
+        You win the game by matching your total score to the Random Number, you lose the game if your total score goes above the random number.
+    </p>
+    <br>
+    <p>
+        The value of each crystal is hidden from you until you click on it.
+    </p>
+    <br>
+    <p>
+        Each time when the game restarts, the game will change the values of each crystal and the Random Number.
+    </p>
+
+<div id="random_number_box">
+    <h2 id="random_number">##</h2>
+</div>
+
+<div id="winloss_box">
+    <p id="Wins">Number of Wins: 00</p>
+    <br>
+    <p id="Losses">Number of Losses: 00</p>
+</div>
+
+<div id="imagebar">
+    <img id="yellowdot" src="assets/images/Yellow.png">
+    <img id="bluedot" src="assets/images/Blue.png">
+    <img id="purpledot" src="assets/images/Purple.png">
+    <img id="blackdot" src="assets/images/Black.png">
+
+</div>
+
+<div id="score">
+    <p>YOUR TOTAL SCORE IS:</p>
+    <br>
+    <p id="scorenum">00</p>
+</div>
+
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+crossorigin="anonymous"></script>
+
+
+    <script src="assets/javascript/game.js">
+    </script>
+</body>
+</html>

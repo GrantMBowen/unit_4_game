@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+
+}
+
+#random_number_box {
+    float: left;
+    display: block;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 130px;
+    text-align: center;
+    line-height: 100%;
+    text-anchor: middle;
+    padding: 50px;
+    font-size: 28pt;
+}
+
+#winloss_box {
+    float: left;
+    text-align: center;
+    display: block;
+    background-color: navy;
+    color: white;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    font-stretch: expanded;
+}
+
+#score {
+    clear: both;
+    text-align: center;
+    display: block;
+    background-color: brown;
+    color: white;
+   
+    width: 600px;
+    height: auto;
+    padding: 15px;
+
+
+}
+
+#scorenum {
+    font-size: 24pt;
+}
+
+#imagebar {
+    clear: both;
+}
+img {
+    
+    width: 120px;
+    padding: 20px;
+}
